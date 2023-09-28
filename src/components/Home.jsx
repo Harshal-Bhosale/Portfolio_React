@@ -2,9 +2,11 @@ import React from 'react'
 import ProfilePic from '../assets/img/profile.png'
 import TypewriterComponent from 'typewriter-effect'
 import CV from '../assets/pdf/Harshal_Resume.pdf'
+
 const Home = () => {
   return (
 <section className="home section" id="home">
+   
             <div className="home_container container grid">
                 <div className="home_data">
                     <span className="home_greeting">Hello, I'm</span>

@@ -77,7 +77,7 @@ const Contact = () => {
                     <textarea name="message" id="msg" cols="30" rows="10" className="contact_form-input" placeholder="Write me here about message, feedback or to contact project details." required></textarea>
                 </div>   
                 <button className="button" type="submit">Send Message </button> 
-                <span id='checkres'style={{color:"#52ec51",marginLeft:"10px",display:"none"}}>Sent <i class='bx bxs-message-check bx-tada bx-sm'  ></i></span>
+                <span id='checkres'style={{color:"#52ec51",marginLeft:"10px",display:"none"}}>Sent <i className='bx bxs-message-check bx-tada bx-sm'  ></i></span>
                 
             </form>
         </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 
+// import GIF from './assets/img/HB.gif'
+
 import Nav from './components/Nav'
 import About from './components/About'
 import Experience from './components/Experience'
@@ -11,15 +13,18 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 
 
+
 const App = () => {
   return (
     <>
-       <div id="preloader"></div>
-
+       
     {setTimeout(() =>{
-          (document.getElementById("preloader").style.display = "none")
-        } , 4300)}
+          (document.getElementById("preloader").style.display = "none");
+        } , 5300)}
 
+      {/* <div className='preloader_div' >
+        <img  className='preloader_img' src={GIF} alt=''></img>
+        </div>         */}
       <div className="main">
         <Home />
         <Nav />

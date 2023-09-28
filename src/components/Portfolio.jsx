@@ -67,16 +67,16 @@ const Portfolio = () => {
        {data.map(({project,category,img,live,github,description},index)=>{
         return(
             
-        <div className={"work_card mix " +category}>
+        <div key={index} className={"work_card mix " +category}>
             <img src={img} alt="" className="work_image"/>
-            <h2 key={index} className="work_title">{project}</h2>
+            <h2  className="work_title">{project}</h2>
             <p className="work_description"> {description}</p>
             <div className='work_links'> 
             <a href={live} target='blank' className="work_button" >
                 Demo<i className="bx bx-right-arrow-alt work_icon"></i>
             </a>
             <a href={github} target='blank' className="work_git" >
-                <i class='bx bxl-github'></i>
+                <i className='bx bxl-github'></i>
             </a>
             </div>
         </div>

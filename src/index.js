@@ -7,8 +7,8 @@ import App from './App'
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App/>);
-ReactDOM.render(<App/> , document.querySelector("#root"))
 //not supported reactdom use create root instead
+ReactDOM.render(<App/> , document.querySelector("#root"))
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () =>{
@@ -118,7 +118,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2000,
-    delay: 4000,
+    delay: 4700,
     reset: false,
 })
 
@@ -139,7 +139,7 @@ sr.reveal('.swiper-cards', {delay: 400, origin:'bottom'});
 sr.reveal('.contact_title:nth-child(1)', {delay: 400, origin:'bottom', interval:200});
 sr.reveal('.contact_card', {delay: 450, origin:'bottom', interval:200 , reset:false});
 sr.reveal('.contact_container', {delay: 500, origin:'right', interval:200});
-sr.reveal('.footer', {delay: 600, origin:'bottom'});
+sr.reveal('.footer', {delay: 500, origin:'bottom'});
 
 
 /*====================FScr========================= */
