@@ -24,14 +24,14 @@ const Experience = () => {
                         <i className="bx bxs-badge-check"></i>
                         <div>
                             <h3 className="skills_name">CSS</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Adv</span>
                         </div>
                     </div>
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
                             <h3 className="skills_name">Java Script</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
                 </div>
@@ -41,21 +41,21 @@ const Experience = () => {
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">Bootstrap</h3>
+                            <h3 className="skills_name">React</h3>
+                            <span className="skills_level">Adv</span>
+                        </div>
+                    </div>
+                    <div className="skills_data">
+                        <i className="bx bxs-badge-check"></i>
+                        <div>
+                            <h3 className="skills_name">NextJS </h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">Python </h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-                    <div className="skills_data">
-                        <i className="bx bxs-badge-check"></i>
-                        <div>
-                            <h3 className="skills_name">C++</h3>
+                            <h3 className="skills_name">Shadcn</h3>
                             <span className="skills_level">Advance</span>
                         </div>
                     </div>
@@ -71,22 +71,22 @@ const Experience = () => {
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">HTML</h3>
+                            <h3 className="skills_name">Node</h3>
                             <span className="skills_level">Adv</span>
                         </div>
                     </div>
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">CSS</h3>
-                            <span className="skills_level">Basic</span>
+                            <h3 className="skills_name">Python</h3>
+                            <span className="skills_level">Adv</span>
                         </div>
                     </div>
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">Java Script</h3>
-                            <span className="skills_level">Basic</span>
+                            <h3 className="skills_name">C++</h3>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
                 </div>
@@ -96,22 +96,22 @@ const Experience = () => {
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">Bootstrap</h3>
+                            <h3 className="skills_name">MongoDB </h3>
+                            <span className="skills_level">Adv</span>
+                        </div>
+                    </div>
+                    <div className="skills_data">
+                        <i className="bx bxs-badge-check"></i>
+                        <div>
+                            <h3 className="skills_name">Php</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills_data">
                         <i className="bx bxs-badge-check"></i>
                         <div>
-                            <h3 className="skills_name">Python </h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-                    <div className="skills_data">
-                        <i className="bx bxs-badge-check"></i>
-                        <div>
-                            <h3 className="skills_name">C++</h3>
-                            <span className="skills_level">Advance</span>
+                            <h3 className="skills_name">MySql</h3>
+                            <span className="skills_level">Adv</span>
                         </div>
                     </div>
                 </div>

@@ -19,8 +19,8 @@ const App = () => {
     <>
        
     {setTimeout(() =>{
-          (document.getElementById("preloader").style.display = "none");
-        } , 5300)}
+      (document.getElementById("preloader").style.display = "none");
+        } , 4300)}
 
       {/* <div className='preloader_div' >
         <img  className='preloader_img' src={GIF} alt=''></img>
